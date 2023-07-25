@@ -4,8 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fruit Shop Template</title>
-</head>
-<body>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+  <!-- tailwindcss & DaisyUI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
   
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body data-theme="light">
+  <header class="container mx-auto px-5 pt-10 pb-5 space-y-8 relative">
+    <!-- mobile navbar --> 
+    <div id="navbar" class="lg   :hidden flex justify-between items-center">
+      <a href="#" id="logo" class="flex gap-x-2 items-center">
+        <img class="w-8" src="images/logo.png" alt="logo">
+        <span class="text-[--secondary] font-bold text-2xl">Fruit Burst</span>
+      </a>
+      <nav>
+        <div class="mobile-menu text-[--primary]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </nav>
+    </div> <!-- end mobile navbar-->
+    <!-- navbar -->
+    <div id="navbar" class="hidden lg:flex bg-[--primary] text-white justify-between items-center py-2 pr-5 rounded-full">
+      <ul class="menu menu-horizontal">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">shop</a></li>
+        <li><a href="#">All Fruits</a></li>
+      </ul>
+      <a href="#" id="logo" class="flex gap-x-2 items-center">
+        <img class="w-8" src="images/logo.png" alt="logo">
+        <span class="text-white font-bold text-2xl">Fruit Burst</span>
+      </a>
+      <form action="#" class="search">
+        <input class="w-72 px-5 py-2 rounded-full bg-[url('images/search.svg')] bg-no-repeat bg-[95%_center] bg-[length:24px_24px]" type="search" name="s" id="search" placeholder="Search here">
+      </form>
+    </div>
+    <!-- banner -->
+    <div class="banner text-center">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full bg-[url('images/banner1.png')] bg-cover text-white rounded-lg overflow-hidden">
+          <div class="text-center w-full px-8 py-24 md:py-32 bg-[#00000080] space-y-4">
+            <h3 class="text-3xl md:text-7xl font-bold">Exotic tastes at your doorstep</h3>
+            <p class="md:text-xl">We supply highly quality organic products</p>
+            <a href="" class="btn md:btn-lg bg-[--primary] border-[--primary] text-white">Shop Now</a>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle opacity-90 bg-black text-white border-none">❮</a> 
+            <a href="#slide2" class="btn btn-circle opacity-90 bg-black text-white border-none">❯</a>
+          </div>
+        </div> <!-- slide 1 end -->
+        <div id="slide2" class="carousel-item relative w-full bg-[url('images/banner2.png')] bg-cover text-white rounded-lg overflow-hidden">
+          <div class="text-center w-full px-8 py-24 md:py-32 bg-[#00000080] space-y-4">
+            <h3 class="text-3xl md:text-7xl font-bold">Exotic tastes at your doorstep</h3>
+            <p class="md:text-xl">We supply highly quality organic products</p>
+            <a href="" class="btn md:btn-lg bg-[--primary] border-[--primary] text-white">Shop Now</a>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle opacity-90 bg-black text-white border-none">❮</a> 
+            <a href="#slide3" class="btn btn-circle opacity-90 bg-black text-white border-none">❯</a>
+          </div>
+        </div> <!-- slide 2 end -->
+        <div id="slide3" class="carousel-item relative w-full bg-[url('images/banner3.png')] bg-cover text-white rounded-lg overflow-hidden">
+          <div class="text-center w-full px-8 py-24 md:py-32 bg-[#00000080] space-y-4">
+            <h3 class="text-3xl md:text-7xl font-bold">Exotic tastes at your doorstep</h3>
+            <p class="md:text-xl">We supply highly quality organic products</p>
+            <a href="" class="btn md:btn-lg bg-[--primary] border-[--primary] text-white">Shop Now</a>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle opacity-90 bg-black text-white border-none">❮</a> 
+            <a href="#slide1" class="btn btn-circle opacity-90 bg-black text-white border-none">❯</a>
+          </div>
+        </div> <!-- slide 3 end -->
+      </div>
+    </div>
+    <!-- category list -->
+    <div class="text-center bg-white mx-[10%] absolute w-[80%] -bottom-20 left-0 px-12 py-8 rounded-lg shadow-lg
+    flex gap-8 justify-center items-center">
+      <a href="#" class="cat">
+        <img class="inline" src="images/fruit1.png" alt="Strawberry">
+        <p>Strawberry</p>
+      </a>
+      <a href="#" class="cat">
+        <img class="inline" src="images/fruit2.png" alt="Strawberry">
+        <p>Orange</p>
+      </a>
+      <a href="#" class="cat">
+        <img class="inline" src="images/fruit3.png" alt="Strawberry">
+        <p>Mango</p>
+      </a>
+      <a href="#" class="cat">
+        <img class="inline" src="images/fruit4.png" alt="Strawberry">
+        <p>Strawberry </p>
+      </a>
+      <a href="#" class="cat">
+        <img class="inline" src="images/fruit5.png" alt="Strawberry">
+        <p>Mango </p>
+      </a>
+    </div>
+  </header>
 </body>
 </html>

@@ -24,7 +24,7 @@
 <body data-theme="light">
   <header class="container mx-auto px-5 pt-10 pb-5 space-y-8 relative">
     <!-- mobile navbar --> 
-    <div id="navbar" class="lg   :hidden flex justify-between items-center">
+    <div id="navbar" class="lg:hidden flex justify-between items-center">
       <a href="#" id="logo" class="flex gap-x-2 items-center">
         <img class="w-8" src="images/logo.png" alt="logo">
         <span class="text-[--secondary] font-bold text-2xl">Fruit Burst</span>
@@ -93,7 +93,7 @@
     </div>
     <!-- category list -->
     <div class="text-center bg-white mx-[10%] absolute w-[80%] -bottom-20 left-0 px-12 py-8 rounded-lg shadow-lg
-    flex gap-8 justify-center items-center">
+    hidden lg:flex gap-8 justify-center items-center">
       <a href="#" class="cat">
         <img class="inline" src="images/fruit1.png" alt="Strawberry">
         <p>Strawberry</p>
@@ -116,5 +116,8 @@
       </a>
     </div>
   </header>
+  <main>
+    <div class="lg:h-24"></div>
+  </main>
 </body>
 </html>

@@ -106,7 +106,7 @@
         <img class="inline" src="images/fruit3.png" alt="Strawberry">
         <p>Mango</p>
       </a>
-      <a href="#" class="cat">
+      <a href="#" class="cat"> 
         <img class="inline" src="images/fruit4.png" alt="Strawberry">
         <p>Strawberry </p>
       </a>
@@ -116,8 +116,225 @@
       </a>
     </div>
   </header>
-  <main>
+  <main class="container mx-auto px-5">
     <div class="lg:h-24"></div>
+    <section id="dealOfTheDay" class="text-center py-16 space-y-8">
+      <div class="content space-y-5 lg:flex lg:gap-10 justify-between items-center">
+        <div class="title max-w-md max-lg:mx-auto space-y-4 lg:text-left">
+          <h2 class="font-bold text-3xl text-[--secondary]">Deal of the day</h2>
+          <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div class="time-count">
+          <div class="grid grid-flow-col gap-3 text-center auto-cols-max justify-center">
+            <div class="flex flex-col items-center">
+              <span class="countdown font-bold text-4xl md:text-5xl">
+                <span style="--value:29;"></span>
+              </span>
+              Days
+            </div>
+            <div class="text-3xl py-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24 " viewBox="0 0 15 15" fill="none">
+                <path d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="countdown font-bold text-4xl md:text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              Hours
+            </div> 
+            <div class="text-3xl py-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24 " viewBox="0 0 15 15" fill="none">
+                <path d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="countdown font-bold text-4xl md:text-5xl">
+                <span style="--value:25;"></span>
+              </span>
+              Minutes
+            </div> 
+            <div class="text-3xl py-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24 " viewBox="0 0 15 15" fill="none">
+                <path d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="countdown font-bold text-4xl md:text-5xl">
+                <span style="--value:08;"></span>
+              </span>
+              Seconds
+            </div>
+          </div>
+        </div> <!-- end time counter-->
+      </div> <!-- end content -->
+      <div class="products flex flex-col gap-5 md:grid md:grid-cols-2 lg:grid-cols-4">
+        <div class="product space-y-6 border-2 rounded-lg p-8 lg:max-xl:p-6">
+          <img class="inline" src="images/fruit6.png" alt="">
+          <h5 class="price font-bold text-2xl">12.90$ - 18.85$</h5>
+          <div class="divider"></div>
+          <h4>Apples</h4>
+          <div class="flex justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="25" viewBox="0 0 160 25" fill="none">
+              <path d="M45.8529 0.226562L50.4018 7.23248L58.4705 9.39373L53.2131 15.885L53.651 24.2266L45.8529 21.2324L38.0549 24.2266L38.4927 15.885L33.2354 9.39373L41.3041 7.23248L45.8529 0.226562Z" fill="#F85559"/>
+              <path d="M45.9043 0.226562L50.4532 7.23248L58.5219 9.39373L53.2645 15.885L53.7023 24.2266L45.9043 21.2324V0.226562Z" fill="#FBC0A8"/>
+              <path d="M12.6176 0.226562L17.1664 7.23248L25.2351 9.39373L19.9778 15.885L20.4156 24.2266L12.6176 21.2324L4.81952 24.2266L5.25735 15.885L0 9.39373L8.06871 7.23248L12.6176 0.226562Z" fill="#F85559"/>
+              <path d="M79.6176 0.226562L84.1664 7.23248L92.2351 9.39373L86.9778 15.885L87.4156 24.2266L79.6176 21.2324L71.8195 24.2266L72.2574 15.885L67 9.39373L75.0687 7.23248L79.6176 0.226562Z" fill="#FBC0A8"/>
+              <path d="M146.618 0.226562L151.166 7.23248L159.235 9.39373L153.978 15.885L154.416 24.2266L146.618 21.2324L138.82 24.2266L139.257 15.885L134 9.39373L142.069 7.23248L146.618 0.226562Z" fill="#FBC0A8"/>
+              <path d="M113.618 0.226562L118.166 7.23248L126.235 9.39373L120.978 15.885L121.416 24.2266L113.618 21.2324L105.82 24.2266L106.257 15.885L101 9.39373L109.069 7.23248L113.618 0.226562Z" fill="#FBC0A8"/>
+            </svg>
+          </div>
+          <!-- product modal -->
+          <!-- The button to open modal -->
+          <label for="product_modal_1" class="inline-block text-[--primary] font-bold text-lg">Details</label>
+          <input type="checkbox" id="product_modal_1" class="modal-toggle" />
+          <div class="modal">
+            <div class="modal-box space-y-4 p-8">
+              <img class="inline" src="images/fruit6.png" alt="">
+              <h5 class="price font-bold text-2xl">Apples</h5>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="160" height="25" viewBox="0 0 160 25" fill="none">
+                  <path d="M45.8529 0.226562L50.4018 7.23248L58.4705 9.39373L53.2131 15.885L53.651 24.2266L45.8529 21.2324L38.0549 24.2266L38.4927 15.885L33.2354 9.39373L41.3041 7.23248L45.8529 0.226562Z" fill="#F85559"/>
+                  <path d="M45.9043 0.226562L50.4532 7.23248L58.5219 9.39373L53.2645 15.885L53.7023 24.2266L45.9043 21.2324V0.226562Z" fill="#FBC0A8"/>
+                  <path d="M12.6176 0.226562L17.1664 7.23248L25.2351 9.39373L19.9778 15.885L20.4156 24.2266L12.6176 21.2324L4.81952 24.2266L5.25735 15.885L0 9.39373L8.06871 7.23248L12.6176 0.226562Z" fill="#F85559"/>
+                  <path d="M79.6176 0.226562L84.1664 7.23248L92.2351 9.39373L86.9778 15.885L87.4156 24.2266L79.6176 21.2324L71.8195 24.2266L72.2574 15.885L67 9.39373L75.0687 7.23248L79.6176 0.226562Z" fill="#FBC0A8"/>
+                  <path d="M146.618 0.226562L151.166 7.23248L159.235 9.39373L153.978 15.885L154.416 24.2266L146.618 21.2324L138.82 24.2266L139.257 15.885L134 9.39373L142.069 7.23248L146.618 0.226562Z" fill="#FBC0A8"/>
+                  <path d="M113.618 0.226562L118.166 7.23248L126.235 9.39373L120.978 15.885L121.416 24.2266L113.618 21.2324L105.82 24.2266L106.257 15.885L101 9.39373L109.069 7.23248L113.618 0.226562Z" fill="#FBC0A8"/>
+                </svg>
+              </div>
+              <div class="">
+                <label class="modal-backdrop inline-block text-[--primary] font-bold px-5 py-2 border-2 border-[--primary] rounded-md mr-3" for="product_modal_1">Close</label>
+                <a href="#" class="inline-block font-bold px-5 py-2 border-2 border-[--primary] bg-[--primary] text-white rounded-md">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end product 1 -->
+        <div class="product space-y-6 border-2 rounded-lg p-8 lg:max-xl:p-6">
+          <img class="inline" src="images/fruit7.png" alt="">
+          <h5 class="price font-bold text-2xl">12.90$ - 18.85$</h5>
+          <div class="divider"></div>
+          <h4>Orange</h4>
+          <div class="flex justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="25" viewBox="0 0 160 25" fill="none">
+              <path d="M45.8529 0.226562L50.4018 7.23248L58.4705 9.39373L53.2131 15.885L53.651 24.2266L45.8529 21.2324L38.0549 24.2266L38.4927 15.885L33.2354 9.39373L41.3041 7.23248L45.8529 0.226562Z" fill="#F85559"/>
+              <path d="M45.9043 0.226562L50.4532 7.23248L58.5219 9.39373L53.2645 15.885L53.7023 24.2266L45.9043 21.2324V0.226562Z" fill="#FBC0A8"/>
+              <path d="M12.6176 0.226562L17.1664 7.23248L25.2351 9.39373L19.9778 15.885L20.4156 24.2266L12.6176 21.2324L4.81952 24.2266L5.25735 15.885L0 9.39373L8.06871 7.23248L12.6176 0.226562Z" fill="#F85559"/>
+              <path d="M79.6176 0.226562L84.1664 7.23248L92.2351 9.39373L86.9778 15.885L87.4156 24.2266L79.6176 21.2324L71.8195 24.2266L72.2574 15.885L67 9.39373L75.0687 7.23248L79.6176 0.226562Z" fill="#FBC0A8"/>
+              <path d="M146.618 0.226562L151.166 7.23248L159.235 9.39373L153.978 15.885L154.416 24.2266L146.618 21.2324L138.82 24.2266L139.257 15.885L134 9.39373L142.069 7.23248L146.618 0.226562Z" fill="#FBC0A8"/>
+              <path d="M113.618 0.226562L118.166 7.23248L126.235 9.39373L120.978 15.885L121.416 24.2266L113.618 21.2324L105.82 24.2266L106.257 15.885L101 9.39373L109.069 7.23248L113.618 0.226562Z" fill="#FBC0A8"/>
+            </svg>
+          </div>
+          <!-- product modal -->
+          <!-- The button to open modal -->
+          <label for="product_modal_2" class="inline-block text-[--primary] font-bold text-lg">Details</label>
+          <input type="checkbox" id="product_modal_2" class="modal-toggle" />
+          <div class="modal">
+            <div class="modal-box space-y-4 p-8">
+              <img class="inline" src="images/fruit7.png" alt="">
+              <h5 class="price font-bold text-2xl">Orange</h5>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="160" height="25" viewBox="0 0 160 25" fill="none">
+                  <path d="M45.8529 0.226562L50.4018 7.23248L58.4705 9.39373L53.2131 15.885L53.651 24.2266L45.8529 21.2324L38.0549 24.2266L38.4927 15.885L33.2354 9.39373L41.3041 7.23248L45.8529 0.226562Z" fill="#F85559"/>
+                  <path d="M45.9043 0.226562L50.4532 7.23248L58.5219 9.39373L53.2645 15.885L53.7023 24.2266L45.9043 21.2324V0.226562Z" fill="#FBC0A8"/>
+                  <path d="M12.6176 0.226562L17.1664 7.23248L25.2351 9.39373L19.9778 15.885L20.4156 24.2266L12.6176 21.2324L4.81952 24.2266L5.25735 15.885L0 9.39373L8.06871 7.23248L12.6176 0.226562Z" fill="#F85559"/>
+                  <path d="M79.6176 0.226562L84.1664 7.23248L92.2351 9.39373L86.9778 15.885L87.4156 24.2266L79.6176 21.2324L71.8195 24.2266L72.2574 15.885L67 9.39373L75.0687 7.23248L79.6176 0.226562Z" fill="#FBC0A8"/>
+                  <path d="M146.618 0.226562L151.166 7.23248L159.235 9.39373L153.978 15.885L154.416 24.2266L146.618 21.2324L138.82 24.2266L139.257 15.885L134 9.39373L142.069 7.23248L146.618 0.226562Z" fill="#FBC0A8"/>
+                  <path d="M113.618 0.226562L118.166 7.23248L126.235 9.39373L120.978 15.885L121.416 24.2266L113.618 21.2324L105.82 24.2266L106.257 15.885L101 9.39373L109.069 7.23248L113.618 0.226562Z" fill="#FBC0A8"/>
+                </svg>
+              </div>
+              <div class="">
+                <label class="modal-backdrop inline-block text-[--primary] font-bold px-5 py-2 border-2 border-[--primary] rounded-md mr-3" for="product_modal_2">Close</label>
+                <a href="#" class="inline-block font-bold px-5 py-2 border-2 border-[--primary] bg-[--primary] text-white rounded-md">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end product 2 -->
+        <div class="product space-y-6 border-2 rounded-lg p-8 lg:max-xl:p-6">
+          <img class="inline" src="images/fruit8.png" alt="">
+          <h5 class="price font-bold text-2xl">12.90$ - 18.85$</h5>
+          <div class="divider"></div>
+          <h4>Red Dragon</h4>
+          <div class="flex justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="25" viewBox="0 0 160 25" fill="none">
+              <path d="M45.8529 0.226562L50.4018 7.23248L58.4705 9.39373L53.2131 15.885L53.651 24.2266L45.8529 21.2324L38.0549 24.2266L38.4927 15.885L33.2354 9.39373L41.3041 7.23248L45.8529 0.226562Z" fill="#F85559"/>
+              <path d="M45.9043 0.226562L50.4532 7.23248L58.5219 9.39373L53.2645 15.885L53.7023 24.2266L45.9043 21.2324V0.226562Z" fill="#FBC0A8"/>
+              <path d="M12.6176 0.226562L17.1664 7.23248L25.2351 9.39373L19.9778 15.885L20.4156 24.2266L12.6176 21.2324L4.81952 24.2266L5.25735 15.885L0 9.39373L8.06871 7.23248L12.6176 0.226562Z" fill="#F85559"/>
+              <path d="M79.6176 0.226562L84.1664 7.23248L92.2351 9.39373L86.9778 15.885L87.4156 24.2266L79.6176 21.2324L71.8195 24.2266L72.2574 15.885L67 9.39373L75.0687 7.23248L79.6176 0.226562Z" fill="#FBC0A8"/>
+              <path d="M146.618 0.226562L151.166 7.23248L159.235 9.39373L153.978 15.885L154.416 24.2266L146.618 21.2324L138.82 24.2266L139.257 15.885L134 9.39373L142.069 7.23248L146.618 0.226562Z" fill="#FBC0A8"/>
+              <path d="M113.618 0.226562L118.166 7.23248L126.235 9.39373L120.978 15.885L121.416 24.2266L113.618 21.2324L105.82 24.2266L106.257 15.885L101 9.39373L109.069 7.23248L113.618 0.226562Z" fill="#FBC0A8"/>
+            </svg>
+          </div>
+          <!-- product modal -->
+          <!-- The button to open modal -->
+          <label for="product_modal_3" class="inline-block text-[--primary] font-bold text-lg">Details</label>
+          <input type="checkbox" id="product_modal_3" class="modal-toggle" />
+          <div class="modal">
+            <div class="modal-box space-y-4 p-8">
+              <img class="inline" src="images/fruit8.png" alt="">
+              <h5 class="price font-bold text-2xl">Red Dragon</h5>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="160" height="25" viewBox="0 0 160 25" fill="none">
+                  <path d="M45.8529 0.226562L50.4018 7.23248L58.4705 9.39373L53.2131 15.885L53.651 24.2266L45.8529 21.2324L38.0549 24.2266L38.4927 15.885L33.2354 9.39373L41.3041 7.23248L45.8529 0.226562Z" fill="#F85559"/>
+                  <path d="M45.9043 0.226562L50.4532 7.23248L58.5219 9.39373L53.2645 15.885L53.7023 24.2266L45.9043 21.2324V0.226562Z" fill="#FBC0A8"/>
+                  <path d="M12.6176 0.226562L17.1664 7.23248L25.2351 9.39373L19.9778 15.885L20.4156 24.2266L12.6176 21.2324L4.81952 24.2266L5.25735 15.885L0 9.39373L8.06871 7.23248L12.6176 0.226562Z" fill="#F85559"/>
+                  <path d="M79.6176 0.226562L84.1664 7.23248L92.2351 9.39373L86.9778 15.885L87.4156 24.2266L79.6176 21.2324L71.8195 24.2266L72.2574 15.885L67 9.39373L75.0687 7.23248L79.6176 0.226562Z" fill="#FBC0A8"/>
+                  <path d="M146.618 0.226562L151.166 7.23248L159.235 9.39373L153.978 15.885L154.416 24.2266L146.618 21.2324L138.82 24.2266L139.257 15.885L134 9.39373L142.069 7.23248L146.618 0.226562Z" fill="#FBC0A8"/>
+                  <path d="M113.618 0.226562L118.166 7.23248L126.235 9.39373L120.978 15.885L121.416 24.2266L113.618 21.2324L105.82 24.2266L106.257 15.885L101 9.39373L109.069 7.23248L113.618 0.226562Z" fill="#FBC0A8"/>
+                </svg>
+              </div>
+              <div class="">
+                <label class="modal-backdrop inline-block text-[--primary] font-bold px-5 py-2 border-2 border-[--primary] rounded-md mr-3" for="product_modal_3">Close</label>
+                <a href="#" class="inline-block font-bold px-5 py-2 border-2 border-[--primary] bg-[--primary] text-white rounded-md">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end product 3 -->
+        <div class="product space-y-6 border-2 rounded-lg p-8 lg:max-xl:p-6">
+          <img class="inline" src="images/fruit9.png" alt="">
+          <h5 class="price font-bold text-2xl">12.90$ - 18.85$</h5>
+          <div class="divider"></div> 
+          <h4>Banana</h4>
+          <div class="flex justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="25" viewBox="0 0 160 25" fill="none">
+              <path d="M45.8529 0.226562L50.4018 7.23248L58.4705 9.39373L53.2131 15.885L53.651 24.2266L45.8529 21.2324L38.0549 24.2266L38.4927 15.885L33.2354 9.39373L41.3041 7.23248L45.8529 0.226562Z" fill="#F85559"/>
+              <path d="M45.9043 0.226562L50.4532 7.23248L58.5219 9.39373L53.2645 15.885L53.7023 24.2266L45.9043 21.2324V0.226562Z" fill="#FBC0A8"/>
+              <path d="M12.6176 0.226562L17.1664 7.23248L25.2351 9.39373L19.9778 15.885L20.4156 24.2266L12.6176 21.2324L4.81952 24.2266L5.25735 15.885L0 9.39373L8.06871 7.23248L12.6176 0.226562Z" fill="#F85559"/>
+              <path d="M79.6176 0.226562L84.1664 7.23248L92.2351 9.39373L86.9778 15.885L87.4156 24.2266L79.6176 21.2324L71.8195 24.2266L72.2574 15.885L67 9.39373L75.0687 7.23248L79.6176 0.226562Z" fill="#FBC0A8"/>
+              <path d="M146.618 0.226562L151.166 7.23248L159.235 9.39373L153.978 15.885L154.416 24.2266L146.618 21.2324L138.82 24.2266L139.257 15.885L134 9.39373L142.069 7.23248L146.618 0.226562Z" fill="#FBC0A8"/>
+              <path d="M113.618 0.226562L118.166 7.23248L126.235 9.39373L120.978 15.885L121.416 24.2266L113.618 21.2324L105.82 24.2266L106.257 15.885L101 9.39373L109.069 7.23248L113.618 0.226562Z" fill="#FBC0A8"/>
+            </svg>
+          </div>
+          <!-- product modal -->
+          <!-- The button to open modal -->
+          <label for="product_modal_4" class="inline-block text-[--primary] font-bold text-lg">Details</label>
+          <input type="checkbox" id="product_modal_4" class="modal-toggle" />
+          <div class="modal">
+            <div class="modal-box space-y-4 p-8">
+              <img class="inline" src="images/fruit9.png" alt="">
+              <h5 class="price font-bold text-2xl">Banana</h5>
+              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="160" height="25" viewBox="0 0 160 25" fill="none">
+                  <path d="M45.8529 0.226562L50.4018 7.23248L58.4705 9.39373L53.2131 15.885L53.651 24.2266L45.8529 21.2324L38.0549 24.2266L38.4927 15.885L33.2354 9.39373L41.3041 7.23248L45.8529 0.226562Z" fill="#F85559"/>
+                  <path d="M45.9043 0.226562L50.4532 7.23248L58.5219 9.39373L53.2645 15.885L53.7023 24.2266L45.9043 21.2324V0.226562Z" fill="#FBC0A8"/>
+                  <path d="M12.6176 0.226562L17.1664 7.23248L25.2351 9.39373L19.9778 15.885L20.4156 24.2266L12.6176 21.2324L4.81952 24.2266L5.25735 15.885L0 9.39373L8.06871 7.23248L12.6176 0.226562Z" fill="#F85559"/>
+                  <path d="M79.6176 0.226562L84.1664 7.23248L92.2351 9.39373L86.9778 15.885L87.4156 24.2266L79.6176 21.2324L71.8195 24.2266L72.2574 15.885L67 9.39373L75.0687 7.23248L79.6176 0.226562Z" fill="#FBC0A8"/>
+                  <path d="M146.618 0.226562L151.166 7.23248L159.235 9.39373L153.978 15.885L154.416 24.2266L146.618 21.2324L138.82 24.2266L139.257 15.885L134 9.39373L142.069 7.23248L146.618 0.226562Z" fill="#FBC0A8"/>
+                  <path d="M113.618 0.226562L118.166 7.23248L126.235 9.39373L120.978 15.885L121.416 24.2266L113.618 21.2324L105.82 24.2266L106.257 15.885L101 9.39373L109.069 7.23248L113.618 0.226562Z" fill="#FBC0A8"/>
+                </svg>
+              </div>
+              <div class="">
+                <label class="modal-backdrop inline-block text-[--primary] font-bold px-5 py-2 border-2 border-[--primary] rounded-md mr-3" for="product_modal_4">Close</label>
+                <a href="#" class="inline-block font-bold px-5 py-2 border-2 border-[--primary] bg-[--primary] text-white rounded-md">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end product 4 -->
+      </div> <!-- end products -->
+    </section>
   </main>
 </body>
 </html>
